@@ -1,0 +1,136 @@
+{
+  "title": "ENTER_TRACK_TITLE",
+  "version": "ENTER_TRACK_VERSION",
+  "date_created_utc": "REPLACE_WAV_TIMESTAMP",
+  "ids": {
+    "isrc": "ENTER_ISRC",
+    "upc": "ENTER_UPC",
+    "musicbrainz_recording_id": ""
+  },
+  "participants": {
+    "artist": "ENTER_ARTIST",
+    "album_artist": "ENTER_ALBUM_ARTIST",
+    "album": "ENTER_ALBUM",
+    "composer": "ENTER_COMPOSER",
+    "lyricist": "ENTER_LYRICIST",
+    "producer": "ENTER_PRODUCER",
+    "label": "ENTER_LABEL"
+  },
+  "provenance": {
+    "summary": "Human-written lyrics; AI assisted vocals derived from human-recorded vocals. AI assisted music generation. No impersonations; no third-party samples.",
+    "ai_involvement": {
+      "lyrics": "human",
+      "vocals": "AI assisted, based upon human vocals records",
+      "composition_arrangement": "ai_assisted",
+      "sound_design": "ai_assisted",
+      "mix_master": "human"
+    },
+    "tools": [
+      "Suno v5.0",
+      "Producer FUZZ-2.1",
+      "Audacity 3.4.2",
+      "ffmpeg",
+      "eyeD3"
+    ],
+    "provenance_url": "https://ENV_SITE/tracks/REPLACE_OPUS/"
+  },
+  "rights": {
+    "copyright": "© 2025 ENTER_ARTIST",
+    "rights_summary": "All rights reserved. No model training without consent.",
+    "publisher": "ENTER_LABEL"
+  },
+  "tech": {
+    "genre": "ENTER_GENRE",
+    "track_number": "1",
+    "disc_number": "1",
+    "duration_iso": "REPLACE_PT2M59S",
+    "loudness": {
+      "integrated_lufs": -14.0,
+      "lra": 4.0,
+      "max_true_peak_db": -1.0,
+      "wav": {
+        "integrated_lufs": -10.42,
+        "lra": 4.00,
+        "max_true_peak_db": 0.28
+      },
+      "mp3": {
+        "integrated_lufs": -10.42,
+        "lra": 4.00,
+        "max_true_peak_db": 0.67
+      },
+      "mp4": {
+        "integrated_lufs": -10.42,
+        "lra": 4.00,
+        "max_true_peak_db": 0.67
+      }
+    },
+    "encoder_note": "Lavf60.16.100"
+  },
+  "artwork": {
+    "path": "https://ENV_MEDIA_SITE/REPLACE_ART_URI",
+    "type": "front",
+    "mime": "image/jpeg",
+    "pixels": "512x512"
+  },
+  "bwf": {
+    "bext": {
+      "Description": "ENTER GENRE ENTER_TRACK_VERSION, AI assisted vocals derived from human vocals records; AI-assisted instrumental",
+      "Originator": "ENTER_LABEL",
+      "OriginatorReference": "ENTER_LABEL_OPUS",
+      "OriginationDate": "REPLACE_WAV_DATE",
+      "OriginationTime": "REPLACE_WAV_TIME",
+      "CodingHistory": [
+        "A=PCM,F=48000,W=24,M=stereo,T=Audacity print",
+        "Edit=arrangement polish; Suno/Producer ideation; re-performed",
+        "Master=Limiter ceiling -1.0 dBTP"
+      ],
+      "UMID": ""
+    },
+    "iXML_note": "Human-written lyrics; AI assisted vocals derived from human-recorded vocals. AI assisted music generation. No impersonations; no third-party samples.",
+    "ebucore_axml": "embed"
+  },
+  "id3": {
+    "prefer_version": "2.3",
+    "urls": {
+      "work_page": "https://ENV_SITE/tracks/REPLACE_OPUS/",
+      "artist_page": "https://ENV_SITE/"
+    },
+    "comments": [
+      "Provenance: human lyrics; AI assisted vocals derived from human vocals records; AI-assisted instrumentals; no impersonations."
+    ],
+    "custom_txxx": {
+      "AI_Involvement": "Lyrics human; Arrangement/Sound design AI-assisted; Tools: Suno v5.0, Producer FUZZ-2.0, Audacity 3.4.2",
+      "Provenance_URL": "https://ENV_SITE/tracks/REPLACE_OPUS/",
+      "Tools": "Suno v5.0; Producer FUZZ-2.1; Audacity 3.4.2"
+    },
+    "sort_fields": {
+      "TSOP": "ENTER_LABEL",
+      "TSOA": "ENTER_ALBUM",
+      "TSOT": "ENTER_TRACK_TITLE"
+    }
+  },
+  "checksums": {
+    "file_sha256": {
+      "wav": "REPLACE_SHA256",
+      "mp3": "REPLACE_SHA256",
+      "mp4": "REPLACE_SHA256"
+    },
+    "audio_stream_sha256": {
+      "wav": "REPLACE_SHA256",
+      "mp3": "REPLACE_SHA256",
+      "mp4": "REPLACE_SHA256"
+    },
+    "audio_hash_sha256": {
+      "wav": "REPLACE_SHA256",
+      "mp3": "REPLACE_SHA256",
+      "mp4": "REPLACE_SHA256"
+    }
+  },
+  "media" : {
+    "versionid": {
+      "wav": "REPLACE_VERSION_ID",
+      "mp3": "REPLACE_VERSION_ID",
+      "mp4": "REPLACE_VERSION_ID"
+    }
+  }
+}
