@@ -16,9 +16,7 @@ Several scripts to do typical operations over media files, and a sample of track
 
 Scripts:
 
-```text
 **loudnorm-two-pass.sh: adjust the track's loudness parameters; by default tries to make LUFS:-14.0, LU:11, TP (TruePeak): -1.0db**
-```
 
 ```bash
 Syntax:
@@ -42,9 +40,7 @@ Notes:
 - Target LRA should not be lower than the source LRA; if constraints are violated, filter may revert to dynamic mode. (FFmpeg docs)
 ```
 
-```
 **fn-master.sh: loudness correction script using ffmpeg (best in most cases)**
-```
 
 ```bash
 Usage:
@@ -58,9 +54,7 @@ Examples:
   fn-master.sh -I 14 -T -1.0 -L 11 -i in.wav -o out.wav
 ```
 
-```
 **embed-art.sh: incorporates art image (600x6000 or smaller square JPEG) to be correctly displayed by media players**
-```
 
 ```bash
 Usage: ./embed-art.sh <cover.jpg> <file-or-glob.mp3> [more.mp3 ...]
@@ -69,9 +63,7 @@ Tips:
   - Example: ./embed-art.sh cover_600.jpg *.mp3
 ```
 
-```
 **slowdown-video.sh: makes a slowed down (i.e. longer) video, keeping its major parameters the same**
-```
 
 ```bash
 Usage:
@@ -83,9 +75,7 @@ Examples:
   slowdown-video.sh -f 2.5 -i in.mp4 -o out.mp4
 ```
 
-```
 **wav-24bit-to-16bit.sh: converts 24-bit .wav files to 16-bit version**
-```
 
 ```bash
 wav-24bit-to-16bit.sh 24bit.wav 16bit.wav
