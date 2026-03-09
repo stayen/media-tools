@@ -4,7 +4,7 @@ Some useful scripts/script sets are provided to make it simpler to use the gener
 
 ## audio-overlay
 
-Add audio traack or its part over surce video (to make shorts, for example).
+Add audio track or its part over source video (to make shorts, for example).
 
 ## pre-publish
 
