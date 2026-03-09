@@ -54,7 +54,7 @@ Examples:
   fn-master.sh -I 14 -T -1.0 -L 11 -i in.wav -o out.wav
 ```
 
-**embed-art.sh: incorporates art image (600x6000 or smaller square JPEG) to be correctly displayed by media players**
+**embed-art.sh: incorporates art image (600x600 or smaller square JPEG) to be correctly displayed by media players**
 
 ```bash
 Usage: ./embed-art.sh <cover.jpg> <file-or-glob.mp3> [more.mp3 ...]
